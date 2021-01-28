@@ -1,0 +1,7 @@
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework.2.DaysOfWeek\TMS.Net07.Homework.2.DaysOfWeek\bin\Debug\TMS.Net07.Homework.2.DaysOfWeek.exe.config
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework.2.DaysOfWeek\TMS.Net07.Homework.2.DaysOfWeek\bin\Debug\TMS.Net07.Homework.2.DaysOfWeek.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework.2.DaysOfWeek\TMS.Net07.Homework.2.DaysOfWeek\bin\Debug\TMS.Net07.Homework.2.DaysOfWeek.pdb
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework.2.DaysOfWeek\TMS.Net07.Homework.2.DaysOfWeek\obj\Debug\TMS.Net07.Homework.2.DaysOfWeek.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework.2.DaysOfWeek\TMS.Net07.Homework.2.DaysOfWeek\obj\Debug\TMS.Net07.Homework.2.DaysOfWeek.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework.2.DaysOfWeek\TMS.Net07.Homework.2.DaysOfWeek\obj\Debug\TMS.Net07.Homework.2.DaysOfWeek.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework.2.DaysOfWeek\TMS.Net07.Homework.2.DaysOfWeek\obj\Debug\TMS.Net07.Homework.2.DaysOfWeek.pdb
