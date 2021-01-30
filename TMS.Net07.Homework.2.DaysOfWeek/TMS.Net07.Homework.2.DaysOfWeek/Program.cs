@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,62 +9,56 @@ namespace TMS.Net07.Homework._2.DaysOfWeek
 {
     class Program
     {
-        enum DayOfWeek
-        {
-            Monday = 1,
-            Tuesday = 2,
-            Wednesday = 3,
-            Thursday = 4,
-            Friday = 5,
-            Saturday = 6,
-            Sunday = 0,
-            Exit = 10
-        };
+        
         static void Main(string[] args)
         {
             do
             {
-                Console.WriteLine("Ведите день недели");
-                DayOfWeek today;
-                today = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), Console.ReadLine());
+                Console.WriteLine("Enter a date: ");
+                DateTime userDateTime;
 
-                switch (today)
+                DateTime max = DateTime.MaxValue;
+                DateTime min = DateTime.MinValue;
+
+                CultureInfo myCI = new CultureInfo("ru-RU");
+                var data = Console.ReadLine();
+
+                if (DateTime.TryParse(data, out userDateTime))
                 {
-                    case DayOfWeek.Monday:
-                        Console.WriteLine("Понедельник");
-                        break;
-                    case DayOfWeek.Tuesday:
-                        Console.WriteLine("Вторник");
-                        break;
-                    case DayOfWeek.Wednesday:
-                        Console.WriteLine("Среда");
-                        break;
-                    case DayOfWeek.Thursday:
-                        Console.WriteLine("Четвер");
-                        break;
-                    case DayOfWeek.Friday:
-                        Console.WriteLine("Пятница");
-                        break;
-                    case DayOfWeek.Saturday:
-                        Console.WriteLine("Суббота");
-                        break;
-                    case DayOfWeek.Sunday:
-                        Console.WriteLine("Воскресенье");
-                        break;
-                    case DayOfWeek.Exit:
-                        return;
-                    default:
-                        Console.WriteLine("ошибка");
-                        break;
+                    if (!DateTime.IsLeapYear(userDateTime.Year))
+                    {
+                        Console.WriteLine("год не високосный");
+                    }
+                    else
+                    {
+                        Console.WriteLine("год високосный");
+                    }
+                    if (userDateTime >= min && userDateTime <= max)
+                    {
+                        Console.WriteLine("The day of the week is: " + myCI.DateTimeFormat.GetDayName(userDateTime.DayOfWeek));
+                    }
+                    else
 
+                    {
+                        Console.WriteLine("ошибка");
+                    }
 
                 }
+                else
+                {
+                    if (data.ToUpper() == "EXIT")
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("You have entered an incorrect value.");
+                    }
 
+                }
+               
                 Console.ReadKey();
             } while (true);
-
-
-
 
 
         }
