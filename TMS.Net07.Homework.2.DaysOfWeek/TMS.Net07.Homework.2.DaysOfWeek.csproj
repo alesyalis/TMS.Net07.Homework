@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0418E6EB-67DF-4A9D-B475-14DB95FF89BC}</ProjectGuid>
+    <ProjectGuid>{C2B4AFF2-56E9-4492-BC11-868DDBE27A8D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TMS.Net07.Homework._2.DaysOfWeek</RootNamespace>
     <AssemblyName>TMS.Net07.Homework.2.DaysOfWeek</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\tms\hm2.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
