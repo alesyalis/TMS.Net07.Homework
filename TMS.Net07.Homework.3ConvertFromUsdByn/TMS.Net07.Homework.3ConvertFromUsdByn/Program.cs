@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
+
 namespace TMS.Net07.Homework._3ConvertFromUsdByn
 {
     class Program
@@ -17,7 +18,7 @@ namespace TMS.Net07.Homework._3ConvertFromUsdByn
            
             WebClient client = new WebClient();
 
-            Console.OutputEncoding = System.Text.Encoding.Unicode;
+           Console.OutputEncoding = System.Text.Encoding.Unicode;
 
 
 
@@ -43,7 +44,7 @@ namespace TMS.Net07.Homework._3ConvertFromUsdByn
                 Console.WriteLine("Выберите валюту или EXIT для выхода : USD/EUR/BYN/RUB");
                 currency = Console.ReadLine();
 
-                if(currency.ToUpper() == "EXIT") { return; }
+                if(currency.ToUpper() == "EXIT") { break; }
                 
 
                 Console.WriteLine("Введите сумму : ");

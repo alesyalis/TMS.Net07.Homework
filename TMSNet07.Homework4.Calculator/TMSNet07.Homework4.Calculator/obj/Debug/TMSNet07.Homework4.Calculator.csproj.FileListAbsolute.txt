@@ -1,0 +1,7 @@
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMSNet07.Homework4.Calculator\TMSNet07.Homework4.Calculator\bin\Debug\TMSNet07.Homework4.Calculator.exe.config
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMSNet07.Homework4.Calculator\TMSNet07.Homework4.Calculator\bin\Debug\TMSNet07.Homework4.Calculator.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMSNet07.Homework4.Calculator\TMSNet07.Homework4.Calculator\bin\Debug\TMSNet07.Homework4.Calculator.pdb
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMSNet07.Homework4.Calculator\TMSNet07.Homework4.Calculator\obj\Debug\TMSNet07.Homework4.Calculator.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMSNet07.Homework4.Calculator\TMSNet07.Homework4.Calculator\obj\Debug\TMSNet07.Homework4.Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMSNet07.Homework4.Calculator\TMSNet07.Homework4.Calculator\obj\Debug\TMSNet07.Homework4.Calculator.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMSNet07.Homework4.Calculator\TMSNet07.Homework4.Calculator\obj\Debug\TMSNet07.Homework4.Calculator.pdb
