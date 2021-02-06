@@ -11,7 +11,7 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
         static void Main(string[] args)
         {
             string oper;
-            Console.WriteLine("Выбор операции : n!,  f(n), ");
+            Console.WriteLine("Выбор операции : n!,  n!2,  f(n), ");
             oper = Console.ReadLine();
             Console.WriteLine("Введите значение : ");
 
@@ -20,6 +20,10 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
                 case "n!":
                     int value = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Факториал числа {0} равен {1}", value, Factorial(value));
+                    break;
+                case "n!2":
+                    int num = Convert.ToInt32(Console.ReadLine());
+                    Factorial2(num);
                     break;
                 case "f(n)":
                     int fibo = Convert.ToInt32(Console.ReadLine());
@@ -31,6 +35,7 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
             }
             Console.ReadKey();
         }
+        //рекурсивный рассчет факториала числа
         static int Factorial(int value)
         {
             if (value == 0)
@@ -42,6 +47,27 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
                 return value * Factorial(value - 1);
             }
         }
+        //рассчет факториала числа в цикле
+        static int Factorial2(int num)
+        {
+            
+            int factorial = 1;
+            for (int i = 1; i <= num; i++)
+            {
+                factorial *= i;
+                if (i == num)
+                {
+                    Console.Write("{0}", i);
+                }
+                else
+                {
+                    Console.Write("{0} * ", i);
+                }
+            }
+            Console.Write(" = {0}", factorial);
+            return factorial;
+        }
+        //рассчет N-ого числа Фибоначчи
         static int Fibonachi(int fibo)
         {
             if (fibo == 0 || fibo == 1)

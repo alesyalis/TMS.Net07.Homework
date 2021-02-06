@@ -1,0 +1,7 @@
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework4.2FibonachiFactorial\TMS.Net07.Homework4.2FibonachiFactorial\bin\Debug\TMS.Net07.Homework4.2FibonachiFactorial.exe.config
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework4.2FibonachiFactorial\TMS.Net07.Homework4.2FibonachiFactorial\bin\Debug\TMS.Net07.Homework4.2FibonachiFactorial.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework4.2FibonachiFactorial\TMS.Net07.Homework4.2FibonachiFactorial\bin\Debug\TMS.Net07.Homework4.2FibonachiFactorial.pdb
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework4.2FibonachiFactorial\TMS.Net07.Homework4.2FibonachiFactorial\obj\Debug\TMS.Net07.Homework4.2FibonachiFactorial.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework4.2FibonachiFactorial\TMS.Net07.Homework4.2FibonachiFactorial\obj\Debug\TMS.Net07.Homework4.2FibonachiFactorial.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework4.2FibonachiFactorial\TMS.Net07.Homework4.2FibonachiFactorial\obj\Debug\TMS.Net07.Homework4.2FibonachiFactorial.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework4.2FibonachiFactorial\TMS.Net07.Homework4.2FibonachiFactorial\obj\Debug\TMS.Net07.Homework4.2FibonachiFactorial.pdb
