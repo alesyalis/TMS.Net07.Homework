@@ -10,35 +10,44 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
     {
         static void Main(string[] args)
         {
-            string oper;
-            Console.WriteLine("Выбор операции : n!,  n!2,  f(n), ");
-            oper = Console.ReadLine();
-            Console.WriteLine("Введите значение : ");
-
-            switch (oper)
+            do
             {
-                case "n!":
-                    int value = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Факториал числа {0} равен {1}", value, Factorial(value));
-                    break;
-                case "n!2":
-                    int num = Convert.ToInt32(Console.ReadLine());
-                    Factorial2(num);
-                    break;
-                case "f(n)":
-                    int fibo = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("{0}", Fibonachi(fibo));
-                    break;
-                default:
-                    Console.WriteLine("Error");
-                    break;
+                string oper;
+                Console.WriteLine("Выбор операции : n!,  n!2,  f(n), ");
+                oper = Console.ReadLine();
+                Console.WriteLine("Введите значение : ");
+
+                switch (oper)
+                {
+                    case "n!":
+                        int value = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Факториал числа {0} равен {1}", value, Factorial(value));
+                        break;
+                    case "n!2":
+                        int num1 = Convert.ToInt32(Console.ReadLine());
+                        Factorial2(num1);
+                        break;
+                    case "f(n)":
+                        int fibo = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("{0}", Fibonachi(fibo));
+                        break;
+                    default:
+                        Console.WriteLine("Error");
+                        break;
+                }
+                Console.Write("Press <Escape> to exit... ");
             }
-            Console.ReadKey();
+            while (Console.ReadKey().Key != ConsoleKey.Escape);
+            
         }
         //рекурсивный рассчет факториала числа
         static int Factorial(int value)
         {
             if (value == 0)
+            {
+                return 1;
+            }
+            else if(value < 0)
             {
                 return 1;
             }
@@ -50,22 +59,30 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
         //рассчет факториала числа в цикле
         static int Factorial2(int num)
         {
-            
             int factorial = 1;
-            for (int i = 1; i <= num; i++)
+            if (num <= 0)
             {
-                factorial *= i;
-                if (i == num)
-                {
-                    Console.Write("{0}", i);
-                }
-                else
-                {
-                    Console.Write("{0} * ", i);
-                }
+                Console.Write("{0}", factorial);
+                return factorial;
             }
-            Console.Write(" = {0}", factorial);
-            return factorial;
+            else
+            {
+                for (int i = 1; i <= num; i++)
+                {
+                    factorial *= i;
+                    if (i == num)
+                    {
+                        Console.Write("{0}", i);
+                    }
+                    else
+                    {
+                        Console.Write("{0} * ", i);
+                    }
+                }
+                Console.Write(" = {0}", factorial);
+                return factorial;
+            }
+            
         }
         //рассчет N-ого числа Фибоначчи
         static int Fibonachi(int fibo)
