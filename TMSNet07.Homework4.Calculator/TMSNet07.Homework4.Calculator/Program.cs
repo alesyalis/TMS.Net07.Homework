@@ -12,23 +12,33 @@ namespace TMSNet07.Homework4.Calculator
         {
             char repiat = 'y';
 
-            while (Char.ToUpper(repiat) == 'Y')  
+            while (Char.ToUpper(repiat) == 'Y')
             {
                 double firstValue;
                 double secondValue = 0;
+                string tempValue = String.Empty;
                 string oper;
 
                 Console.WriteLine("Введите операцию: +, -, *, /, %, sqr, sqrt, pow");
                 oper = Console.ReadLine();
-                Console.WriteLine("Введите первое значение: ");
-                firstValue = Convert.ToDouble(Console.ReadLine());
-                
-                if(oper != "sqr" & oper != "sqrt")
+
+                do
                 {
-                    Console.WriteLine("Введите второе значение");
-                    secondValue = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Введите первое значение: ");
+                    tempValue = Console.ReadLine();
                 }
-                
+                while (!double.TryParse(tempValue, out firstValue));
+
+                if (oper != "sqr" && oper != "sqrt")
+                {
+                    do
+                    {
+                        Console.WriteLine("Введите второе значение: ");
+                        tempValue = Console.ReadLine();
+                    }
+                    while (!double.TryParse(tempValue, out secondValue));
+                }
+
                 switch (oper)
                 {
                     case "+":
