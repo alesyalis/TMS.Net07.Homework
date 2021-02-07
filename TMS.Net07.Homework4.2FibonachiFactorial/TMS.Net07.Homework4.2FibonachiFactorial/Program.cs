@@ -87,14 +87,25 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
         //рассчет N-ого числа Фибоначчи
         static int Fibonachi(int fibo)
         {
-            if (fibo == 0 || fibo == 1)
+            int a = 0;
+            int b = 1;
+            int tmp;
+
+            for (int i = 0; i < fibo; i++)
             {
-                return fibo;
+                tmp = a;
+                a = b;
+                b += tmp;
             }
-            else
-            {
-                return Fibonachi(fibo - 1) + Fibonachi(fibo - 2);
-            }
+            return a;
+            //if (fibo == 0 || fibo == 1)
+            //{
+            //    return fibo;
+            //}
+            //else
+            //{
+            //    return Fibonachi(fibo - 1) + Fibonachi(fibo - 2);
+            //}
         }
     }
 }

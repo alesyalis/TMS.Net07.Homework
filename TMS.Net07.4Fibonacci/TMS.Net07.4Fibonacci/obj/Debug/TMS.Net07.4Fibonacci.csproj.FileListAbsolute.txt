@@ -1,0 +1,7 @@
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.4Fibonacci\TMS.Net07.4Fibonacci\bin\Debug\TMS.Net07.4Fibonacci.exe.config
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.4Fibonacci\TMS.Net07.4Fibonacci\bin\Debug\TMS.Net07.4Fibonacci.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.4Fibonacci\TMS.Net07.4Fibonacci\bin\Debug\TMS.Net07.4Fibonacci.pdb
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.4Fibonacci\TMS.Net07.4Fibonacci\obj\Debug\TMS.Net07.4Fibonacci.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.4Fibonacci\TMS.Net07.4Fibonacci\obj\Debug\TMS.Net07.4Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.4Fibonacci\TMS.Net07.4Fibonacci\obj\Debug\TMS.Net07.4Fibonacci.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.4Fibonacci\TMS.Net07.4Fibonacci\obj\Debug\TMS.Net07.4Fibonacci.pdb
