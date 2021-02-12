@@ -1,0 +1,7 @@
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework5.Shape\TMS.Net07.Homework5.Shape\bin\Debug\TMS.Net07.Homework5.Shape.exe.config
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework5.Shape\TMS.Net07.Homework5.Shape\bin\Debug\TMS.Net07.Homework5.Shape.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework5.Shape\TMS.Net07.Homework5.Shape\bin\Debug\TMS.Net07.Homework5.Shape.pdb
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework5.Shape\TMS.Net07.Homework5.Shape\obj\Debug\TMS.Net07.Homework5.Shape.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework5.Shape\TMS.Net07.Homework5.Shape\obj\Debug\TMS.Net07.Homework5.Shape.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework5.Shape\TMS.Net07.Homework5.Shape\obj\Debug\TMS.Net07.Homework5.Shape.exe
+C:\Users\Artem\Desktop\Lisik\c#\TMS.Net07.Homework\TMS.Net07.Homework5.Shape\TMS.Net07.Homework5.Shape\obj\Debug\TMS.Net07.Homework5.Shape.pdb
