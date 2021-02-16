@@ -17,6 +17,8 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
                 oper = Console.ReadLine();
                 Console.WriteLine("Введите значение : ");
 
+                var buffer = new int[fibo];
+
                 switch (oper)
                 {
                     case "n!":
@@ -29,7 +31,7 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
                         break;
                     case "f(n)":
                         int fibo = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("{0}", Fibonachi(fibo));
+                        Console.WriteLine("{0}", Fibonachi(fibo, buffer));
                         break;
                     default:
                         Console.WriteLine("Error");
@@ -85,8 +87,14 @@ namespace TMS.Net07.Homework4._2FibonachiFactorial
             
         }
         //рассчет N-ого числа Фибоначчи
-        static int Fibonachi(int fibo)
+        static int Fibonachi(int fibo, int [] buffer)
         {
+            
+
+            if (fibo < 0)
+            {
+                throw new ArgumentException("Ведите положительное");
+            }
             if (fibo == 0 || fibo == 1)
             {
                 return fibo;
