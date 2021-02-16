@@ -27,7 +27,11 @@ namespace TMS.Net07.Homework6.ShapeDraw
         {
             return Math.Abs(A.X - A.Y);
         }
-
+        public override int[] GetPoints()
+        {
+            int[] points = { A.X, A.Y};
+            return points;
+        }
 
     }
 }

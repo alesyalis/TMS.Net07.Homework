@@ -28,5 +28,11 @@ namespace TMS.Net07.Homework6.ShapeDraw
         {
             throw new NotImplementedException();
         }
+        public override int[] GetPoints()
+        {
+            int[] points = { A.X, A.Y, B.X, B.Y, C.X, C.Y };
+            return points;
+                
+        }
     }
 }

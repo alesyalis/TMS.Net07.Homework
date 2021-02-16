@@ -8,28 +8,31 @@ namespace TMS.Net07.Homework6.ShapeDraw
 {
     public class Circle : Shape
     {
-        Point A { get; }
-        Point B { get; }
-        
+        public Point A { get; set; }
+        public Point B { get; set; }
         public Circle(Point a, Point b)
         {
             A = a ?? throw new ArgumentNullException(nameof(a));
             B = b ?? throw new ArgumentNullException(nameof(b));
-            
         }
         public override double GetPerimeter()
         {
-            var radius = GetRadius();
+            double radius = GetRadius();
             return 2 * Math.PI * radius;
         }
         public override double GetSquare()
         {
-            var radius = GetRadius();
-            return Math.PI*(radius * radius); ;
+            double radius = GetRadius();
+            return Math.PI * (radius * radius);
         }
-        private int GetRadius()
+        public double GetRadius()
         {
-            return Convert.ToInt32(Math.Sqrt(Math.Pow((B.X-A.X) *(B.X - A.X) - (B.Y - A.Y) * (B.X - A.X), 0.5)));
+            return Math.Sqrt(Math.Pow(B.X - A.X, 2) + Math.Pow(B.Y - A.Y, 2));
+        }
+        public override int[] GetPoints()
+        {
+            int[] points = { A.X, A.Y, B.X, B.Y };
+            return points;
         }
     }
 }

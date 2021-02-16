@@ -8,15 +8,13 @@ namespace TMS.Net07.Homework6.ShapeDraw
 {
     public class Point
     {
-        public int X { get; }
-        public int Y { get; }
-
+        public int X { get; set; }
+        public int Y { get; set; }
         public Point(int x, int y)
         {
             X = x;
             Y = y;
         }
-
         public Point SetX(int newX)
         {
             return new Point(newX, Y);

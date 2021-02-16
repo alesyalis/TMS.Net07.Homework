@@ -25,8 +25,12 @@ namespace TMS.Net07.Homework6.ShapeDraw
         }
         public override double GetSquare()
         {
-            return ((A.X - C.X) * (B.X - D.X)) / 2;
+            return A.GetDistance(C) * B.GetDistance(D) / 2;
         }
-
+        public override int[] GetPoints()
+        {
+            int[] points = { A.X, A.Y, B.X, B.Y, C.X, C.Y, D.X, D.Y };
+            return points;
+        }
     }
 }

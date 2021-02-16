@@ -10,5 +10,6 @@ namespace TMS.Net07.Homework6.ShapeDraw
     {
         abstract public double GetSquare();
         abstract public double GetPerimeter();
+        abstract public int[] GetPoints();
     }
 }
